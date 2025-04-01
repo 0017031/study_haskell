@@ -4,7 +4,7 @@
     "context": "."
   },
   //"remoteUser": "proof",
-  // "postCreateCommand": "dotnet tool install fantomas -g",
+  
   "features": {
     "ghcr.io/devcontainers/features/sshd:1": {
       "version": "latest"
@@ -22,7 +22,7 @@
         "extensions.ignoreRecommendations": true
       },
       "extensions": [
-        "banacorn.agda-mode",
+        "haskell.haskell",
         "ericniebler.erics-build-output-colorizer"
       ]
     }
